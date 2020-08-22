@@ -1,0 +1,22 @@
+{
+  "name": "eloni",
+  "version": "1",
+  "description": "backend for the eloni app",
+  "main": "server.js",
+  "repository": "https://github.com/BuildForSDGCohort2/Team-124-Backend.git",
+  "author": "Team 124 A",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
